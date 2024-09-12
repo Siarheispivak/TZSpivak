@@ -1,5 +1,9 @@
 {
 	"devDependencies": {
-		"@types/node": "^22.5.4"
+		"@types/node": "^22.5.4",
+		"sass": "^1.78.0"
+	},
+	"dependencies": {
+		"@fontsource/merriweather": "^5.0.15"
 	}
 }
