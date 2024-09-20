@@ -1,0 +1,46 @@
+
+.item {
+  color: white;
+  border-radius: 6px;
+  background-color: rgba(40, 47, 73);
+  list-style-type: none;
+  padding: 10px 8px;
+  margin: 0;
+  max-width: 100%;
+
+  .trigger {
+    all: unset;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+
+
+    .spanWithGap {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .indicator {
+      color: rgb(101, 111, 136)
+    }
+
+  }
+}
+.content{
+  padding: 4px;
+}
+.item:hover .indicator {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}

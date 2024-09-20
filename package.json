@@ -4,6 +4,10 @@
 		"sass": "^1.78.0"
 	},
 	"dependencies": {
-		"@fontsource/merriweather": "^5.0.15"
+		"@fontsource/merriweather": "^5.0.15",
+		"@fortawesome/free-solid-svg-icons": "^6.6.0",
+		"@fortawesome/react-fontawesome": "^0.2.2",
+		"@radix-ui/react-label": "^2.1.0",
+		"clsx": "^2.1.1"
 	}
 }

@@ -1,0 +1,33 @@
+.inputGroup {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  label {
+    font-size: 16px;
+    color: #555;
+    white-space: nowrap;
+  }
+
+  .date {
+    color: #007bff;
+    background: rgba(217, 231, 255, 0.55);
+    cursor: pointer;
+
+  }
+
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: #f9f9f9;
+    font-size: 14px;
+    flex-grow: 1;
+    color: #333;
+
+    &:focus {
+      outline: none;
+      border-color: #007bff;
+    }
+  }
+}

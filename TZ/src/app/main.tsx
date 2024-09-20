@@ -1,15 +1,11 @@
-import {StrictMode} from 'react'
+import { StrictMode } from 'react'
 
-import {createRoot} from 'react-dom/client'
-import '@fontsource/merriweather/400.css';
-import '@fontsource/merriweather/700.css';
-import '@fontsource/merriweather/900.css';
-import "./styles/index.scss";
+import { createRoot } from 'react-dom/client'
 
-import App from '@/app/App'
+import  App  from '@/app/App'
 
 createRoot(document.getElementById('root') as HTMLElement).render(
     <StrictMode>
-        <App/>
+        <App />
     </StrictMode>
 )

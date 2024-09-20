@@ -1,0 +1,68 @@
+.wrapper {
+  padding: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+
+  .techInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    h2, h3, span {
+      cursor: pointer;
+    }
+
+    h2 {
+      font-size: 16px;
+    }
+
+    .contacts {
+      display: flex;
+      gap: 30px;
+
+      span {
+        font-size: 12px
+      }
+
+      h3 {
+        font-size: 16px;
+
+      }
+
+    }
+
+    .workhours {
+      h3 {
+        font-size: 16px;
+
+      }
+
+      span {
+        font-size: 12px
+      }
+    }
+
+  }
+
+  .docs {
+    opacity: 0.6;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    text-decoration-line: underline;
+    span{
+      cursor: pointer;
+    }
+  }
+}
+
+.button {
+  padding: 30px;
+}
+
+span {
+  opacity: 0.5;
+}
